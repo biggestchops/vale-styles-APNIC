@@ -1,0 +1,7 @@
+extends: existence
+message: "Use 'that' for restrictive clauses, or add a comma before 'which'."
+link: https://www.grammarly.com/blog/which-vs-that/
+level: warning
+ignorecase: true
+# This regex triggers if 'which' appears without a preceding comma
+raw: '(?<!,)\s+which\b'

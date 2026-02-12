@@ -1,0 +1,32 @@
+extends: substitution
+message: "Use the British spelling '%s' instead of the US '%s'."
+link: https://docs.gitlab.com/ee/development/documentation/styleguide/index.html#language
+level: error
+ignorecase: true
+swap:
+  airplane: aeroplane
+  analyze: analyse
+  authorise: authorize
+  behavior: behaviour
+  center: centre
+  color: colour
+  defense: defence
+  enroll: enrol
+  favorite: favourite
+  flavor: flavour
+  fulfill: fulfil
+  gray: grey
+  honor: honour
+  labor: labour
+  license: licence
+  meter: metre
+  neighbor: neighbour
+  organise: organize
+  organisation: organization
+  practice: practise
+  realise: realize
+  recognise: recognize
+  theater: theatre
+  traveled: travelled
+  modeling: modelling
+  signaling: signalling

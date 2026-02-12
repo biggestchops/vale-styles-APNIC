@@ -1,0 +1,9 @@
+ extends: existence
+ message: "Use single quotes ('') for general text. Use double quotes (\"\") only for direct, attributable quotations."
+ level: warning
+# This regex catches straight ", and curly “ and ”
+tokens:
+  - '"'
+  - '“'
+  - '”'
+  - '“'

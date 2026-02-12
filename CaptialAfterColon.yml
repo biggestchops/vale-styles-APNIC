@@ -1,0 +1,6 @@
+extends: existence
+message: "Always capitalize the word after a colon (e.g., 'Title: Subtitle')."
+level: error
+scope: sentence
+# This regex looks for a colon followed by a space and a lowercase letter
+raw: ':\s[a-z]'

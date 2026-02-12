@@ -1,0 +1,6 @@
+extends: existence
+message: "Specify the currency (e.g., AUD or USD) when using the '$' symbol."
+level: warning
+# This regex looks for a '$' that is NOT preceded by AUD or USD
+# It ignores spaces between the code and the symbol
+raw: '(?<!AUD)(?<!USD)\s*\$'

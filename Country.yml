@@ -1,0 +1,13 @@
+extends: substitution
+message: "In APNIC context, use '%s' instead of '%s'."
+level: error
+ignorecase: true
+# We use regex-style keys to catch plural variations
+swap:
+  country: economy
+  countries: economies
+  nation: economy
+  nations: economies
+  national: economy-wide
+  nationwide: economy-wide
+  contry-wide: economy-wide

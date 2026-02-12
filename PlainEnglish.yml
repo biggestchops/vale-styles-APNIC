@@ -1,0 +1,56 @@
+extends: substitution
+message: "Use '%s' instead of the over-complicated '%s'."
+level: warning
+ignorecase: true
+# The 'swap' section: 'word to find': 'simpler alternative'
+swap:
+  additional: more
+  at this point in time: now
+  commence: start
+  consequently: so
+  disseminate: share or send
+  due to the fact that: because
+  finalize: finish
+  implement: do or build
+  in order to: to
+  leverage: use
+  methodology: method
+  optimum: best
+  subsequently: later or then
+  terminate: end or stop
+  utilize: use
+  very unique: unique
+  with regard to: about
+  a majority of: most
+  along the lines of: like
+  prior to: before
+  at the present time: now
+  during such time: while
+  for the reason that: as, because, since
+  has the ability to: can
+  in the event that: if
+  at such time as: when
+  despite the fact that: although
+  in a position to: able to, can
+  in close proximity to: near, close, about
+  in light of the fact: 	because, since
+  in the near future: soon
+  in the neighbourhood of: near, close, about
+  in this day and age: now, currently
+  in view of the fact: as, because, since
+  inasmuchas: as, because, since
+  it is probable that: probably
+  notwithstanding: although
+  on the part of: by
+  predicated on: based on
+  pursuant to your request: as you requested
+  subsequent to: after
+  cognisance: realize
+  that being the case: therefore
+  there can be little doubt that: probably
+  to the fullest extent possible: fully	
+  until such time as: until
+  with a view to: to
+  with reference to: about, concerning
+  with regard to: about, concerning, regarding
+  traverse: travel, cross

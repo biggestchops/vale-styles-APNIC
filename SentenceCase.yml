@@ -1,0 +1,15 @@
+extends: capitalization
+message: "'%s' should use sentence-style capitalization"
+level: suggestion
+scope: heading
+match: $sentence
+exceptions:
+  - APNIC
+  - IPv4
+  - IPv6
+  - DNSSEC
+  - RPKI
+  - BGP
+  - Brisbane
+  - IANA
+  - ICANN

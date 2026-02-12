@@ -1,0 +1,11 @@
+extends: existence
+message: "Use the '1 December 2025' format instead of '%s'."
+level: error
+ignorecase: true
+# This looks for:
+# 1. American style: Month DD, YYYY (e.g., December 1, 2025)
+# 2. Slit dates: DD/MM/YYYY or MM/DD/YYYY
+# 3. Dotted dates: DD.MM.YYYY
+tokens:
+  - '(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s\d{1,2},?\s\d{4}'
+  - '\d{1,2}[.\/-]\d{1,2}[.\/-]\d{2,4}'
