@@ -11,6 +11,7 @@ swap:
   Route Object Authorization: Route Origin Authorization
   Route Origin Attestation: Route Origin Authorization
   Certification Authority: Certificate Authority
+  AS paths: AS-PATHS
   
   # Global technical style
   multi-stakeholder: multistakeholder

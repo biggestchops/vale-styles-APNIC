@@ -30,3 +30,7 @@ swap:
   traveled: travelled
   modeling: modelling
   signaling: signalling
+  synchronisation: synchronization
+  authorisation: authorization
+  serialisation: serialization
+  
