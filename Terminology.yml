@@ -1,0 +1,17 @@
+extends: substitution
+message: "In APNIC content, use '%s' instead of '%s'."
+level: error
+ignorecase: true
+swap:
+  # Ensuring Internet is always capitalized
+  internet: Internet
+  APNIC member: APNIC Member
+  
+  # Technical terms
+  Route Object Authorization: Route Origin Authorization
+  Route Origin Attestation: Route Origin Authorization
+  Certification Authority: Certificate Authority
+  
+  # Global technical style
+  multi-stakeholder: multistakeholder
+  # Removed the whois entry as requested
