@@ -1,0 +1,7 @@
+extends: existence
+message: "Use a comma in numbers of 1,000 or greater (e.g., '1,200' instead of '1200')."
+level: warning
+# This regex looks for 4 or more digits that are not separated by commas.
+# It uses word boundaries (\b) to avoid catching parts of longer strings.
+tokens:
+ - '\b\d{4,}\b'
