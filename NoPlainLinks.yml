@@ -1,0 +1,7 @@
+extends: existence
+message: "Convert the raw URL '%s' into a descriptive Markdown link [like this](url)."
+level: error
+ignorecase: true
+# This regex looks for http(s) that is NOT preceded by '(' or '<'
+# It ensures the link is actually 'bare' in the text.
+raw: '(?<![\(<])https?://[^\s\)]+'

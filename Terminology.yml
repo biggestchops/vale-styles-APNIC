@@ -12,6 +12,7 @@ swap:
   Route Origin Attestation: Route Origin Authorization
   Certification Authority: Certificate Authority
   AS paths: AS-PATHS
+  DECNET: DECnet
   
   # Global technical style
   multi-stakeholder: multistakeholder

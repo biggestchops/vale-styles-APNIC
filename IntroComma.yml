@@ -1,0 +1,9 @@
+extends: existence
+message: "Add a comma after an introductory clause: '%s'."
+level: warning
+ignorecase: true
+# ^ matches the start of a line. 
+# We look for the word, a space, and then another word (no comma).
+tokens:
+  - '(?i)^(?:In|During|Throughout) (?:the )?\d{4}s? [a-z]'
+  - '(?i)^(?:Today|Recently|Currently|Now) [a-z]'

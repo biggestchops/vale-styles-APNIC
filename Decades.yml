@@ -1,0 +1,8 @@
+extends: substitution
+message: "Use '%s' instead of '%s'. (Decades are plural, not possessive, unless followed by a noun)."
+level: error
+ignorecase: true
+# This regex looks for 4 digits followed by 's
+# The parenthesis () capture the year so we can suggest it back without the apostrophe
+swap:
+  '(\d{4})''s': '$1s'
