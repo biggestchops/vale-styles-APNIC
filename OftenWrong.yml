@@ -1,0 +1,7 @@
+extends: substitution
+message: "Wrong again Try '%s'."
+link: https://docs.gitlab.com/ee/development/documentation/styleguide/index.html#language
+level: error
+ignorecase: true
+swap:
+  recieve: receive
